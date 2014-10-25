@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    <com.example.scroll.MyHSV 
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scrollbars="none"
+        android:background="#ff0000"
+        >
+        <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"            
+			android:orientation="vertical"
+            >
+	        <LinearLayout 
+	            android:id="@+id/tabs_ll"
+	            android:layout_width="wrap_content"
+	            android:layout_height="48dp"
+	            android:orientation="horizontal"
+	            >
+	        </LinearLayout>
+		    <ImageView 
+		        android:id="@+id/cursor_iv"
+		        android:layout_width="50dp"
+		        android:layout_height="2dp"
+		        android:background="@drawable/underline"
+		        />
+        </LinearLayout>
+    </com.example.scroll.MyHSV>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        
+    </android.support.v4.view.ViewPager>
+	
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">scroll</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	
+    
+    <string-array name="tabs_arr">
+        <item name="">第一个</item>
+        <item name="">第2个</item>
+        <item name="">第3个</item>
+        <item name="">第4个</item>
+        <item name="">第5个</item>
+        <item name="">你猜我第几个</item>
+        <item name="">第7个</item>
+        <item name="">第8个</item>
+        <item name="">第9个</item>
+        <item name="">管我我第几个个</item>
+        <item name="">第10个</item>
+        <item name="">第一个</item>
+        <item name="">我想多长就多长</item>
+        <item name="">第一个</item>
+        
+    </string-array>
+</resources>
